@@ -23,3 +23,4 @@ jobs:
       
     - name: Deploy the Docker image
       run: docker run -d -p 8082:80 --restart=always --name nginxserver nginximage
+      
